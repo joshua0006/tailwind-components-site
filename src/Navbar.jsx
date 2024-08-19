@@ -156,7 +156,7 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Promos', href: '/promo' },
+    { name: 'Promos', href: '/' },
     { name: 'Stores', href: '#' },
   ],
 }
@@ -337,7 +337,6 @@ export default function Navbar() {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                <a href="#">
                   <span className="sr-only">Your Company</span>
                   <Link to="/home">
                     <img
@@ -346,7 +345,7 @@ export default function Navbar() {
                     className="h-8 w-auto"
                   />
                   </Link>
-                </a>
+
               </div>
 
               {/* Flyout menus */}
