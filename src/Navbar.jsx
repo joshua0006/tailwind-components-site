@@ -15,7 +15,7 @@
 'use client'
 
 import { removeFromCart } from './store/cartSlice';
-import { Fragment, useState, useEffect, useMemo, useCallback } from 'react';
+import { Fragment, useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   Dialog,
